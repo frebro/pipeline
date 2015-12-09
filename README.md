@@ -1,0 +1,4 @@
+# @frebro/pipeline
+
+## todo:
+- [ ] README

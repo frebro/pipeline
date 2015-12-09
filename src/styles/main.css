@@ -1,0 +1,9 @@
+/*! Copyright notice */
+
+/** MAIN STYLESHEET */
+
+body {
+  background-color: moccasin;
+  background-image: linear-gradient(moccasin, thistle);
+  min-height: 100vh;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@frebro/pipeline",
+  "version": "1.0.0",
+  "description": "An asset pipeline using gulp",
+  "repository": "git@github.com:frebro/pipeline.git",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "pipeline",
+    "browser-sync",
+    "postcss",
+    "javascript"
+  ],
+  "author": "Fredrik Broman <frebro@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "browser-sync": "^2.10.0",
+    "del": "^2.2.0",
+    "file-exists": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-sequence": "^0.4.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "require-dir": "^0.3.0"
+  }
+}
