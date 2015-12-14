@@ -1,11 +1,5 @@
 /*! Copyright notice */
 
-/** MAIN SCRIPTS */
-
-/* This is the main script file */
-
-// Main scripts
-//
-
-// Log 'Hello world!'
-console.log('Hello world!');
+// Alert an ES2015 constant
+const es2015 = 'Hello world!';
+alert(es2015);

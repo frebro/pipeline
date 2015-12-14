@@ -11,7 +11,7 @@
   when you run `gulp`.
 */
 
-var reqdir = require('require-dir');
+const reqdir = require('require-dir');
 
 // Require all tasks in gulp/tasks, including subfolders
 reqdir('./tasks', { recurse: true });

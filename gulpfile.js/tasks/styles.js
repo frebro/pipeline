@@ -1,9 +1,9 @@
-var config = require('../config/styles');
-var gulp = require('gulp');
-var changed = require('gulp-changed');
-var bs = require('browser-sync').get('bs');
-var postcss = require('gulp-postcss');
-var nano = require('gulp-cssnano');
+const config = require('../config/styles');
+const gulp = require('gulp');
+const changed = require('gulp-changed');
+const bs = require('browser-sync').get('bs');
+const postcss = require('gulp-postcss');
+const nano = require('gulp-cssnano');
 
 gulp.task('styles', function () {
   return gulp.src(config.src)

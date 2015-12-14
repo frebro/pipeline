@@ -1,7 +1,6 @@
-var config = {};
+const config = {};
 
-// Paths with trailing slashes
-config.src        = './src';
-config.dest       = './public/dist';
+config.src = './src';
+config.dest = './public/dist';
 
 module.exports = config;

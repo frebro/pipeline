@@ -1,8 +1,7 @@
-var gulp = require('gulp');
-var watch = require('gulp-watch');
-var config = require('../config');
-var scripts = require('../config/scripts');
-var styles = require('../config/styles');
+const gulp = require('gulp');
+const config = require('../config');
+const scripts = require('../config/scripts');
+const styles = require('../config/styles');
 
 gulp.task('watch', ['build', 'bs'], function() {
   gulp.watch(config.gulp, ['scripts']);
