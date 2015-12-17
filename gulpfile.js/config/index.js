@@ -1,6 +1,6 @@
 const config = {};
 
 config.src = './src';
-config.dest = './public/dist';
+config.dest = './dist';
 
 module.exports = config;

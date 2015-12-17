@@ -1,5 +1,5 @@
 # Generated assets
-/public/dist/
+/dist/
 
 # Node modules
 /npm-debug.log
